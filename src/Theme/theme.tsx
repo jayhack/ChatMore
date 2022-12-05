@@ -1,7 +1,7 @@
 export const lightTheme = {
 	white: "#FFFFFF",
 	textColor: "#707070",
-	primaryColor: "#191716",
+	primaryColor: "#ADD8E6",
 	secondaryColor: "#E0E2DB",
 	accentColor: "#E6AF2E",
 	accentColorHover: "#AA8325",
