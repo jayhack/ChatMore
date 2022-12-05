@@ -65,7 +65,7 @@ const Container = styled.div`
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	background-color: ${({ theme }) => theme.headerMenuColor};
+	background-color: ${({ theme }) => theme.darkBlue};
 `
 const ImageContainer = styled.div`
 	height: 50px;
@@ -104,7 +104,7 @@ const Dropdown = styled.div`
 	flex-direction: column;
 	border: 1px solid ${({ theme }) => theme.textColor};
 	border-radius: 5px;
-	background-color: ${({ theme }) => theme.headerMenuColor};
+	background-color: ${({ theme }) => theme.darkBlue};
 	height: 110px;
 	width: 180px;
 	top: 45px;
