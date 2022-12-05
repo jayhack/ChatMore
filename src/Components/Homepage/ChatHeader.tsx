@@ -32,7 +32,7 @@ const ChatHeader = ({ avatar_url, username, profile }: Props) => {
 			<Label htmlFor="profile">
 				<Flex>
 					<ImageContainer>
-						<img src={avatar_url !== null ? avatar_url : Picture} alt="profile picture" />
+						<img src={avatar_url !== null ? avatar_url : Picture} alt="profile picture" style={{ width: '50px', height: '50px', objectFit: 'cover' }} />
 					</ImageContainer>
 					<Username>{username}</Username>
 				</Flex>
