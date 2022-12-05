@@ -28,7 +28,7 @@ const ProfileHeader = ({ setActiveSettings }: Props) => {
 	return (
 		<Container>
 			<ImageContainer>
-				<img src={userSelector.avatar_url !== null ? userSelector.avatar_url : Picture} alt="profile picture" />
+				<img src={userSelector.avatar_url !== null ? userSelector.avatar_url : Picture} alt="profile picture" style={{borderRadius: '50%', objectFit: 'cover', width: '50px', height: '50px'}} />
 			</ImageContainer>
 			<IconsWrapper>
 				<MessageSquareAdd onClick={() => setActiveModal(true)} />
