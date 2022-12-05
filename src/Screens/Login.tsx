@@ -14,7 +14,10 @@ const Login: React.FC = () => {
 				<ImageContainer>
 					<img src={Logo} alt="ChatMore Logo" />
 				</ImageContainer>
-				<AuthForm />
+				// Remove the ability for users to log in from the frontend
+// Comment out the AuthForm component
+//
+// <AuthForm />
 				<Separator />
 				<LinkToForm content="Don't have any account ? " href="/register" linkTo="Sign Up" />
 			</Container>
