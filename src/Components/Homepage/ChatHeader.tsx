@@ -51,7 +51,7 @@ const Container = styled.div<ContainerProps>`
 	align-items: center;
 	justify-content: space-between;
 	height: 80px;
-	background-color: ${({ theme }) => theme.headerMenuColor};
+	background-color: #003399;
 	cursor: pointer;
 	${({ $profile }) =>
 		$profile &&
@@ -71,7 +71,7 @@ const Label = styled.label<ContainerProps>`
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: ${({ theme }) => theme.headerMenuColor};
+	background-color: #003399;
 	width: 100%;
 	cursor: pointer;
 	${({ $profile }) =>
