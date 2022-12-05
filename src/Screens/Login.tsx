@@ -16,7 +16,11 @@ const Login: React.FC = () => {
 				</ImageContainer>
 				<AuthForm />
 				<Separator />
-				<LinkToForm content="Don't have any account ? " href="/register" linkTo="Sign Up" />
+				<LinkToForm content="Don't have any account ? " href="/register" linkTo="Sign Up" onClick={() => {
+    if (userLoggedIn) {
+        throw new Error('User already logged in!');
+    }
+}} />
 			</Container>
 		</Main>
 	)
