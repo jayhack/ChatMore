@@ -70,6 +70,8 @@ const Container = styled.div`
 const ImageContainer = styled.div`
 	height: 50px;
 	width: 50px;
+	display: flex;
+	justify-content: center;
 	& img {
 		border-radius: 50%;
 		height: 100%;
