@@ -10,15 +10,15 @@ type Props = {
 	$settings?: boolean
 }
 
-const Button = ({ content, type, isSubmitting }: Props) => {
-	if (isSubmitting) {
+const Button = ({ content, type, isSubmitting, disabled }: Props) => {
+	if (isSubmitting || disabled) {
 		return (
-			<Container type={type}>
+			<Container type={type} disabled={disabled}>
 				<Loader type="TailSpin" color="#FFFFFF" height={40} width={40} />
 			</Container>
 		)
 	}
-	return <Container type={type}>{content}</Container>
+	return <Container type={type} disabled={disabled}>{content}</Container>
 }
 
 const Container = styled.button`
