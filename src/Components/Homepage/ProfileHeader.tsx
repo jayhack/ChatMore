@@ -71,9 +71,9 @@ const ImageContainer = styled.div`
 	height: 50px;
 	width: 50px;
 	& img {
-		border-radius: 50%;
-		height: 100%;
-		width: 100%;
+		border-radius: 0;
+		height: 50px;
+		width: 50px;
 		object-fit: cover;
 	}
 `
